@@ -1,0 +1,14 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "Notion AppImage for Linux",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux appimage"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "electron-builder": "^23.3.3",
+    "electron": "^20.1.0"
+  }
+}
